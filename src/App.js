@@ -85,7 +85,7 @@ const particlesOptions = {
         this.state.input)
       .then(response => {
         if (response) {
-          fetch('http://localhost:1234/image', {
+          fetch('http://localhost:3001/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
